@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,700');
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.travis1 {
+  font-family: 'Fira Sans Extra Condensed', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.travis1 *,
+.travis1 *:before,
+.travis1 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.travis1 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.travis1 figcaption {
+  padding: 10px;
+}
+
+.travis1 h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0 0 4px;
+}
+
+.travis1 .price {
+  margin: 8px 0;
+  font-weight: 700;
+  color: #4da3e2;
+  font-size: 1.5rem;
+}
+
+.travis1 .icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.travis1 .icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.travis1 .icons a i {
+  display: block;
+  font-size: 23.52941176px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+}
+
+.travis1 .icons a i:hover {
+  background-color: #4da3e2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.travis1:hover a,
+.travis1.hover a {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.travis1:hover a:nth-child(2),
+.travis1.hover a:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.travis1:hover a:nth-child(3),
+.travis1.hover a:nth-child(3) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+body {
+  background-color: #212121;
+  text-align: center;
+}
+<style>
+head {
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #101;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
