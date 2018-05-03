@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #101;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+	font-size: 15px
+}
+
+.bg {
+    background-image: url("https://static1.squarespace.com/static/59cc06d49f8dce4098e59255/5a26ee3be2c4831ef9eb9890/5a89365c08522933c2eecf9e/1519649433357/37e88f6f509b9ec48e3754ead444af3b6fde1bd2.jpg");
+
+    height: 80%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
