@@ -1,12 +1,19 @@
+body {
+    background-color: #F1F1F1;
+	background-image:url("https://images.complex.com/complex/images/c_limit,w_680/fl_lossy,pg_1,q_auto/jg9u5tphldqug22omvtv/travis-scott-complexcon-bird-2.jpg"); 
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky;
+    background-color: #404040;
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
+	font-size: 18px
 }
 
 li {
@@ -17,20 +24,14 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 85.75px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #101;
+    background-color: #990000;
 }
 
 .active {
     background-color: #4CAF50;
-}
-body {
-    background-color: #F1F1F1;
-	background-image:url("https://images.complex.com/complex/images/c_limit,w_680/fl_lossy,pg_1,q_auto/jg9u5tphldqug22omvtv/travis-scott-complexcon-bird-2.jpg"); 
-    background-repeat:no-repeat;
-    background-size: cover;
 }
