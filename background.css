@@ -1,12 +1,13 @@
-ul {
+head, ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #404040;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
+	font-size: 18px
 }
 
 li {
@@ -17,12 +18,12 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 87.5px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #101;
+    background-color: #990000;
 }
 
 .active {
@@ -31,7 +32,7 @@ li a:hover {
 body, html {
     height: 100%;
     margin: 0;
-	font-size: 15px
+	font-size: 16px
 }
 
 .bg {
