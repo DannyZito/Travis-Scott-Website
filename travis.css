@@ -17,7 +17,7 @@ ul {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    opacity: 0.7
+	opacity: 0.7;
 	
 
 	font-size: 18px
@@ -41,4 +41,5 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+	
 }
